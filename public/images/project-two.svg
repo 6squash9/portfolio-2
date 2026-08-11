@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480" role="img" aria-label="Placeholder project screenshot">
+  <defs>
+    <linearGradient id="p2bg" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="480" fill="url(#p2bg)"/>
+  <g stroke="#c4b5fd" stroke-opacity="0.5" stroke-width="2" fill="none">
+    <path d="M80 340 L200 220 L320 280 L440 140 L560 200 L720 100"/>
+  </g>
+  <g fill="#a78bfa">
+    <circle cx="200" cy="220" r="7"/>
+    <circle cx="320" cy="280" r="7"/>
+    <circle cx="440" cy="140" r="7"/>
+    <circle cx="560" cy="200" r="7"/>
+  </g>
+  <g fill="#ffffff" fill-opacity="0.1">
+    <rect x="80" y="380" width="180" height="14" rx="7"/>
+    <rect x="80" y="410" width="300" height="14" rx="7"/>
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Portfolio | Suyash Mandaokar</title>
+    <meta
+      name="description"
+      content="Software developer with a strong foundation in Java, full-stack development, and problem solving. I enjoy building practical solutions, learning new technologies, and exploring how AI can be used to create better software."
+    />
+
+    <!-- Replaces next/font/google (Inter 400-700) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Variable font for the TextPressure "SOON!" cards. Needs the wdth and
+         wght axes — the effect animates them on pointer distance. -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wdth,wght@25..151,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Contribution data source for ContributionGraph -->
+    <link rel="preconnect" href="https://github-contributions-api.jogruber.de" />
+
+    <script>
+      /**
+       * Applies the theme class before first paint so there is no flash of the
+       * wrong theme. Runs synchronously in <head>, before React mounts.
+       *
+       * Keep this in sync with readInitialTheme() in src/context/ThemeContext.tsx.
+       *
+       * Precedence: an explicit saved choice always wins. Otherwise follow the
+       * OS setting, falling back to dark when it can't be determined. Both
+       * themes are fully built out, so honouring the OS costs nothing.
+       */
+      ;(function initTheme() {
+        try {
+          var saved = localStorage.getItem('theme')
+          var useDark =
+            saved === 'dark' || saved === 'light'
+              ? saved === 'dark'
+              : !window.matchMedia('(prefers-color-scheme: light)').matches
+
+          document.documentElement.classList.toggle('dark', useDark)
+        } catch (e) {
+          document.documentElement.classList.add('dark')
+        }
+      })()
+    </script>
+  </head>
+  <body class="overflow-x-hidden transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
