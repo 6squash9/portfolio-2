@@ -1,8 +1,10 @@
 # Portfolio
 
-Personal portfolio site — React, Vite and TypeScript, styled with Tailwind.
+🚀 **Live Site:** [https://suyaxh.vercel.app/](https://suyaxh.vercel.app/)
 
-Static build, no server. Deploys to any static host.
+Personal portfolio site built with React, Vite, TypeScript, and styled with Tailwind CSS.
+
+Static build, no server required. Deploys seamlessly to Vercel or any static host.
 
 ## Getting started
 
