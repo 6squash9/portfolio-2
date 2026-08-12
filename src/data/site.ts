@@ -87,7 +87,7 @@ export const projects: Project[] = [
     title: 'Project Three',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    image: null,
+    image: '/images/project-three.svg',
     repo: null,
     link: null,
     tech: 'React, Node.js',
@@ -96,7 +96,7 @@ export const projects: Project[] = [
     title: 'Project Four',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
-    image: null,
+    image: '/images/project-four.svg',
     repo: null,
     link: null,
     tech: 'Python, FastApi',
